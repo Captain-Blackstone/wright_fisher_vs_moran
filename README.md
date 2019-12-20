@@ -58,7 +58,7 @@ We built six models. In ∂a∂i for two populations (YRI and CEU) with and with
 |           | Tp+T = TAf for two populations model                                                                                                                                                                                                                                                                                         |
 
 
-References:
+## References:
 1. Gutenkunst R.N., Hernandez R.D., Williamson S.H., Bustamante C.D. (2009) Inferring the joint demographic history of multiple populations from multidimensional snp frequency data // PLoS Genet. 5: e1000695.
 2. Livingston R.J., von Niederhausern A., Jegga A.G., Crawford D.C., Carlson C.S., et al. (2004) Pattern of sequence variation across 213 environmental response genes // Genome Res. Vol. 14. pp. 1821–1831.
 3. https://github.com/yangjl/dadi
