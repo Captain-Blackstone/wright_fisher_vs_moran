@@ -1,4 +1,4 @@
-Inferring a demographic history of modern people populations using the Moran model
+# Inferring a demographic history of modern people populations using the Moran model
 
 Demographic models based on genetic data take an important place in population genetic studies. They help to find
 genetic regions that targeted by recent natural selection and therefore reveal genetic variation within and among
@@ -6,12 +6,12 @@ populations, explore population size changes, population splits and joins, migra
 archeological evidence of prehistorical events, demographic models may explain the expansion of humanity across the
 globe. Besides it can be useful in medical genetic studies and can be applied in demographic inference of other species.
 
-Goal:
+## Goal:
 The goal of this project is the inference of a demographic history “Out of Africa” for African, European and Asian
 populations using ∂a∂i and momi2 tools based on Wright-Fisher and Moran demographic models and comparison of the
 results.
 
-Objectives:
+## Objectives:
 - Study Wright-Fisher and Moran demographic models;
 - Study the demographic history “Out of Africa” by Gutenkunst et al. [1];
 - Install ∂a∂i  and learn to use it;
@@ -19,7 +19,7 @@ Objectives:
 - Implement the same demographic history;
 - Compare the results.
 
-Materials and methods:
+## Materials and methods:
 In this study we inferred the demographic history - the history of evolution and development - of modern African,
 European, and East Asian populations and compared different approaches.
 African population - Yoruba from Ibadan, Nigeria (YRI)
@@ -32,6 +32,11 @@ For computation the demographic history we used two Python packages ∂a∂i [1,
 expected AFS and comparing it with observed AFS using the maximum likelihood model. ∂a∂i is based on a diffusion
 approximation to the one-locus, two-allele Wright-Fisher process, but momi2 uses lookdown construction of the
 continuous-time Moran model expended by admixture between population.
+
+## Results:
+We built six models. In ∂a∂i for two populations (YRI and CEU) with and without migration, and the same for three populations (YRI, CEU and CHB). In momi2 - model for two and three populations without migration because “pulse” migration in momi2 is not equivalent to migration in ∂a∂i and can’t be compared. (Table 2 and 3).
+
+#### Table 1. Model’s parameters
 
 | Parameter | Meaning                                                                                                                                                                                                                                                                                                                      |
 |-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
