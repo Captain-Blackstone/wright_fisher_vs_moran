@@ -36,8 +36,9 @@ continuous-time Moran model expended by admixture between population.
 ## Results:
 We built six models. In ∂a∂i for two populations (YRI and CEU) with and without migration, and the same for three populations (YRI, CEU and CHB). In momi2 - model for two and three populations without migration because “pulse” migration in momi2 is not equivalent to migration in ∂a∂i and can’t be compared. (Table 2 and 3).
 
+
 <p align="center">
-Table 1. Model’s parameters
+#### Table 1. Model’s parameters
 </p>
 
 | Parameter | Meaning                                                                                                                                                                                                                                                                                                                      |
