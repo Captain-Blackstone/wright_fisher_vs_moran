@@ -32,3 +32,14 @@ For computation the demographic history we used two Python packages ∂a∂i [1,
 expected AFS and comparing it with observed AFS using the maximum likelihood model. ∂a∂i is based on a diffusion
 approximation to the one-locus, two-allele Wright-Fisher process, but momi2 uses lookdown construction of the
 continuous-time Moran model expended by admixture between population.
+
+References:
+1. Gutenkunst R.N., Hernandez R.D., Williamson S.H., Bustamante C.D. (2009) Inferring the joint demographic history of multiple populations from multidimensional snp frequency data // PLoS Genet. 5: e1000695.
+2. Livingston R.J., von Niederhausern A., Jegga A.G., Crawford D.C., Carlson C.S., et al. (2004) Pattern of sequence variation across 213 environmental response genes // Genome Res. Vol. 14. pp. 1821–1831.
+3. https://github.com/yangjl/dadi
+4. https://github.com/popgenmethods/momi2
+5. https://momi2.readthedocs.io/en/latest/
+6. Kamm J., Terhorst J., Durbin R., Song Y.S. (2019) Efficiently Inferring the Demographic History of Many Populations With Allele Count Data // Journal of the American Statistical Association.
+7.  Bae C.J., Douka K., Petraglia M.D. (2017) On the origin of modern humans: Asian perspectives // Science.
+8. A.-S. Malaspinas et al. (2016) A genomic history of Aboriginal Australia // Nature.
+9. Rasmussen M. et al. (2011) An Aboriginal Australian Genome Reveals Separate Human Dispersals into Asia // Science.
