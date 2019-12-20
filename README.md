@@ -38,7 +38,7 @@ We built six models. In ∂a∂i for two populations (YRI and CEU) with and with
 
 
 <p align="center">
-#### Table 1. Model’s parameters
+Table 1. Model’s parameters
 </p>
 
 | Parameter | Meaning                                                                                                                                                                                                                                                                                                                      |
