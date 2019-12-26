@@ -75,11 +75,11 @@ Table 2. Models we built for two (African and Eurasian) populations with and wit
 | N_A                  	|     7240    	|     7113    	|     7240    	|
 | NAf                  	|    13748    	|    13481    	|    13618    	|
 | NB                   	|     286     	|     279     	|     514     	|
-| gEu                  	| 5.35 * 10<sup>-3</sup> 	| 5.58 * 10-3 	| 2.03 * 10-3 	|
+| gEu                  	| 5.35 * 10<sup>-3</sup> 	| 5.58 * 10<sup>-3</sup> 	| 2.03 * 10<sup>-3</sup> 	|
 | NEu                  	|    68665    	|    76027    	|    13357    	|
 | Tp, ky               	|    144.8    	|    137.5    	|    128.5    	|
 | T, kya               	|     25.7    	|     24.9    	|     40.2    	|
-| Maf-b                	|      -      	|      -      	|  6.3 * 10-5 	|
+| Maf-b                	|      -      	|      -      	|  6.3 * 10<sup>-5</sup> 	|
 
 Above (columns 2 and 3) we can see very close demographic histories for African and Eurasian populations without migrations inferred by ∂a∂i and momi2 packages. The initial African ancestral population of 7 thousand people grew about 138-145 ky to 13,5 thousand before the split. About 25 kya less than 300 people diverged from the African population and found the Eurasian ancestral population, that than grew exponentially. The small Eurasian population size at the moment of split meant that population went through bottlenecks.
 The number of people is just effective population size - the number of individuals in a population who contribute offspring to the next generation.
@@ -101,18 +101,18 @@ Table 3. Models we built for three (African, European and East Asian) population
 | NAf                  	|    14078    	|   13364  	|    12300    	|
 | NB                   	|     209     	|    146   	|     2100    	|
 | NEu0                 	|     2264    	|   3584   	|     1000    	|
-| gEu                  	| 1.03 * 10-3 	| 1 * 10-3 	| 3.98 * 10-3 	|
+| gEu                  	| 1.03 * 10<sup>-3</sup> 	| 1 * 10<sup>-3</sup> 	| 3.98 * 10<sup>-3</sup> 	|
 | NEu                  	|    15728    	|   9589   	|    27300    	|
 | NAs0                 	|     972     	|   2458   	|     510     	|
-| gAs                  	| 1.75 * 10-3 	| 1 * 10-3 	|  5.5 * 10-3 	|
+| gAs                  	| 1.75 * 10<sup>-3</sup> 	| 1 * 10<sup>-3</sup> 	|  5.5 * 10<sup>-3</sup> 	|
 | NAs                  	|    26325    	|   6576   	|    53220    	|
 | TAf, kya             	|    280.4    	|   125.9  	|    221.6    	|
 | TB, kya              	|     51.7    	|   26.2   	|    144.5    	|
 | TEu-As, kya          	|     47.2    	|   24.6   	|     21.2    	|
-| Maf-b                	|      -      	|     -    	|  25 * 10-5  	|
-| Maf-eu               	|      -      	|     -    	|   3 * 10-5  	|
-| Maf-as               	|      -      	|     -    	|  1.9 * 10-5 	|
-| Meu-as               	|      -      	|     -    	|  9.6 * 10-5 	|
+| Maf-b                	|      -      	|     -    	|  25 * 10<sup>-5</sup>  	|
+| Maf-eu               	|      -      	|     -    	|   3 * 10<sup>-5</sup>  	|
+| Maf-as               	|      -      	|     -    	|  1.9 * 10<sup>-5</sup> 	|
+| Meu-as               	|      -      	|     -    	|  9.6 * 10<sup>-5</sup> 	|
 
 Above (columns 2 and 3) we can see two demographic histories for African, European and East Asian populations without migrations inferred by ∂a∂i and momi2 packages. The results more or less similar at the beginning, but the estimated time of prehistorical events were different. The initial African ancestral population of 7 thousand people grew to 13-14 thousand before the split. About 26-51 kya less than 150-200 people (bottlenecks) diverged from the African population and found the Eurasian ancestral population. The most probable time of this split is about 60 kya [7]. Split time of European and Asian populations also were different (52 vs. 26 kya). The latest estimation of time of this split is about 40 kya [7,8], but there were arguments for 25-38 kya [9]. Momi2 implies Moran model with overlapping generations and probably for this reason shorten the time.
 
