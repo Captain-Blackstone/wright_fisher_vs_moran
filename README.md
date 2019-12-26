@@ -61,45 +61,35 @@ Table 1. Models’ parameters
 |           | Tp+T = TAf for two populations model                                                                                                                                                                                                                                                                                         |
 
 <h4 align="center">
-Table 2. Models we built for two (African and Eurasian) populations with migration
+Table 2. Models we built for two (African and Eurasian) populations with and without migration
 </h4>
 
-| Parameters \ Package |     ∂a∂i    |    momi2    |
-|----------------------|:-----------:|:-----------:|
-| Theta                |    2749.3   |             |
-| N_A                  |     7240    |     7113    |
-| NAf                  |    13748    |    13481    |
-| NB                   |     286     |     279     |
-| gEu                  | 5.35 * 10-3 | 5.58 * 10-3 |
-| NEu                  |    68665    |    76027    |
-| Tp, ky               |    144.8    |    137.5    |
-| T, kya               |     25.7    |     24.9    |
+| Parameters \ Package 	|     ∂a∂i    	|    momi2    	|     ∂a∂i    	|
+|----------------------	|:-----------:	|:-----------:	|:-----------:	|
+| Migration            	|      No     	|      No     	|     Yes     	|
+| Theta                	|    2749.3   	|             	|    2749.3   	|
+| N_A                  	|     7240    	|     7113    	|     7240    	|
+| NAf                  	|    13748    	|    13481    	|    13618    	|
+| NB                   	|     286     	|     279     	|     514     	|
+| gEu                  	| 5.35 * 10-3 	| 5.58 * 10-3 	| 2.03 * 10-3 	|
+| NEu                  	|    68665    	|    76027    	|    13357    	|
+| Tp, ky               	|    144.8    	|    137.5    	|    128.5    	|
+| T, kya               	|     25.7    	|     24.9    	|     40.2    	|
+| Maf-b                	|      -      	|      -      	|  6.3 * 10-5 	|
 
-Above we can see very close demographic histories for African and Eurasian populations without migrations inferred by ∂a∂i  and momi2 packages. The initial African ancestral population of 7 thousand people grew about 138-145 ky to 13,5 thousand before the split. About 25 kya less than 300 people diverged from the African population and found the Eurasian ancestral population, that than grew exponentially. The small Eurasian population size at the moment of split meant that population went through bottlenecks.
+Above (columns 2 and 3) we can see very close demographic histories for African and Eurasian populations without migrations inferred by ∂a∂i and momi2 packages. The initial African ancestral population of 7 thousand people grew about 138-145 ky to 13,5 thousand before the split. About 25 kya less than 300 people diverged from the African population and found the Eurasian ancestral population, that than grew exponentially. The small Eurasian population size at the moment of split meant that population went through bottlenecks.
 The number of people is just effective population size - the number of individuals in a population who contribute offspring to the next generation.
 According to other researches [7] people started to go outside Africa before 60 kya and did that many times therefore migration should be considered. For this reason in our models without migration the time of split was shortened – genetic differences between populations accumulated faster that if genes mixing between populations as a result of migration.
 
+We couldn’t compare the implementations of migration in two packages, but in the demographic history for African and Eurasian populations with migrations inferred by ∂a∂i (column 4) almost all parameters were similar to models without migrations except the time of the split and the size of the Eurasian population. The divergence time increased to 40 kya, on the other hand maybe we didn’t have enough data to get even more realistic results. The exceedance of the European population size in the model without migration over the model with migration is logical. The observed polymorphism in the population can be reached or by huge effective population size or by the inflow of new alleles as a result of migration.
+
+Thus, we found that migration should be considered for inferring more realistic demographic history and it is consistent with the fact of the multiple exits of sapiens from Africa. Then we added the third population - East Asian – and compare our results with two populations model and other researches. 
+
 <h4 align="center">
-Table 3. Models we built for two (African and Eurasian) populations without migration
+Table 3. Models we built for three (African, European and East Asian) populations with and without migrations
 </h4>
 
-| Parameters \ Package 	| ∂a∂i        	| momi2 	|
-|----------------------	|:-------------:|:---------:|
-| Theta                	| 2749.3      	|        	|
-| N_A                  	| 7240        	|     -   	|
-| NAf                  	| 13618       	|       	|
-| NB                   	| 514         	|       	|
-| gEu                  	| 2.03 * 10-3 	|       	|
-| NEu                  	| 13357       	|       	|
-| Maf-b                	| 6.3 * 10-5  	|       	|
-| Tp, ky               	| 128.5       	|       	|
-| T, kya               	| 40.2        	|       	|
 
-<table align="center">
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
 
 ## References:
 1. Gutenkunst R.N., Hernandez R.D., Williamson S.H., Bustamante C.D. (2009) Inferring the joint demographic history of multiple populations from multidimensional snp frequency data // PLoS Genet. 5: e1000695.
