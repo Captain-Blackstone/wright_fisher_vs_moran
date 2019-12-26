@@ -83,17 +83,17 @@ According to other researches [7] people started to go outside Africa before 60 
 Table 3. Models we built for two (African and Eurasian) populations without migration
 </h4>
 
-    | Parameters \ Package 	| ∂a∂i        	| momi2 	|
-    |----------------------	|-------------	|-------	|
-    | Theta                	| 2749.3      	|        	|
-    | N_A                  	| 7240        	|       -   	|
-    | NAf                  	| 13618       	|       	|
-    | NB                   	| 514         	|       	|
-    | gEu                  	| 2.03 * 10-3 	|       	|
-    | NEu                  	| 13357       	|       	|
-    | Maf-b                	| 6.3 * 10-5  	|       	|
-    | Tp, ky               	| 128.5       	|       	|
-    | T, kya               	| 40.2        	|       	|
+| Parameters \ Package 	| ∂a∂i        	| momi2 	|
+|----------------------	|:-------------:|:---------:|
+| Theta                	| 2749.3      	|        	|
+| N_A                  	| 7240        	|     -   	|
+| NAf                  	| 13618       	|       	|
+| NB                   	| 514         	|       	|
+| gEu                  	| 2.03 * 10-3 	|       	|
+| NEu                  	| 13357       	|       	|
+| Maf-b                	| 6.3 * 10-5  	|       	|
+| Tp, ky               	| 128.5       	|       	|
+| T, kya               	| 40.2        	|       	|
 
 <table align="center">
     <tr>
