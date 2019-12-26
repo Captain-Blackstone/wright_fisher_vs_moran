@@ -88,7 +88,8 @@ Table 2. Models we built for two (African and Eurasian) populations with migrati
 | T, kya               	|     25.7    	|     24.9    	|
 
 
-<p align="center">  
+<p align="center">
+  
   | Parameters \ Package 	| ∂a∂i        	| momi2       	|
 |----------------------	|-------------	|-------------	|
 | Theta                	| 2749.3      	|             	|
