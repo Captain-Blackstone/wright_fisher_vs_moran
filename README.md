@@ -14,7 +14,7 @@ results.
 ## Objectives:
 - Study Wright-Fisher and Moran demographic models;
 - Study the demographic history “Out of Africa” by Gutenkunst et al. [1];
-- Install ∂a∂i  and learn to use it;
+- Install ∂a∂i and learn to use it;
 - Install momi2 and learn to use it;
 - Implement the same demographic history;
 - Compare the results.
@@ -28,9 +28,14 @@ In this study we inferred the demographic history - the history of evolution and
 Genetic data were presented as multi-population allele frequency spectrum (AFS) - the joint distribution of allele frequencies across diallelic variants. It was calculated using single nucleotide polymorphism (SNP) data from the Environmental Genome Project (EGP). Effective sequenced length (accounts for losses in alignment and missed calls) was 4.04*106 Mb (exom) and the neutral mutation rate was 2.35*108 per generation [2].
 For computation the demographic history we used two Python packages ∂a∂i [1,3] and momi2 [4,5,6], simulating the expected AFS and comparing it with observed AFS using the maximum likelihood model. ∂a∂i is based on a diffusion approximation to the one-locus, two-allele Wright-Fisher process, but momi2 uses lookdown construction of the continuous-time Moran model expended by admixture between population.
 
+We used hidden command *momi.sfs_from_dadi("name.fs")* for exporting AFS from dadi to momi2.
+Files *YRI.CEU.CHB.fs* and *YRI_CEU.fs* contain AFS for two and three populations, that we used as initial data.
+Files *dadi_three_populations.py*, *dadi_two_populations_with_migration.py*, *dadi_two_populations_without_migration.py*, *momi_three_populations.py* and *momi_two_populations.py* contain scripts for ∂a∂i and momi2 packages in Python for inferring corresponding demographic histories. Demographic history for African, European and East Asian populations with migrations inferred by ∂a∂i we got from article of Gutenkunst et al. [1].
+Files *OutOfAfrica.py* and *demographic_models.py* contain functions for getting optimal parameters of demographic histories (see Tables 2 and 3).
+
 
 ## Results:
-We built six models. In ∂a∂i for two populations (YRI and CEU) with and without migration, and the same for three populations (YRI, CEU and CHB). In momi2 - model for two and three populations without migration because “pulse” migration in momi2 is not equivalent to migration in ∂a∂i and can’t be compared. (Table 2 and 3).
+We built six models. In ∂a∂i for two populations (YRI and CEU) with and without migration, and the same for three populations (YRI, CEU and CHB). In momi2 - model for two and three populations without migration because “pulse” migration in momi2 is not equivalent to migration in ∂a∂i and can’t be compared (Tables 2 and 3).
 
 
 <h4 align="center">
