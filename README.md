@@ -86,7 +86,7 @@ Table 3. Models we built for two (African and Eurasian) populations without migr
 | Parameters \ Package 	| ∂a∂i        	| momi2 	|
 |----------------------	|-------------	|-------	|
 | Theta                	| 2749.3      	|        	|
-| N_A                  	| 7240        	|    -   	|
+| N_A                  	| 7240        	|       -   	|
 | NAf                  	| 13618       	|       	|
 | NB                   	| 514         	|       	|
 | gEu                  	| 2.03 * 10-3 	|       	|
