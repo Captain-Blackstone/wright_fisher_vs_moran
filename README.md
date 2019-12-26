@@ -63,17 +63,16 @@ Table 1. Models’ parameters
 <h4 align="center">
 Table 2. Models we built for two (African and Eurasian) populations with migration
 </h4>
-| Parameters \ Package | ∂a∂i        | momi2       |
-|----------------------|-------------|-------------|
-| Theta                | 2749.3      |             |
-| N_A                  | 7240        | 7113        |
-| NAf                  | 13748       | 13481       |
-| NB                   | 286         | 279         |
-| gEu                  | 5.35 * 10-3 | 5.58 * 10-3 |
-| NEu                  | 68665       | 76027       |
-| Tp, ky               | 144.8       | 137.5       |
-| T, kya               | 25.7        | 24.9        |
-
+| Parameters \ Package 	| ∂a∂i        	| momi2       	|
+|----------------------	|-------------	|-------------	|
+| Theta                	| 2749.3      	|             	|
+| N_A                  	| 7240        	| 7113        	|
+| NAf                  	| 13748       	| 13481       	|
+| NB                   	| 286         	| 279         	|
+| gEu                  	| 5.35 * 10-3 	| 5.58 * 10-3 	|
+| NEu                  	| 68665       	| 76027       	|
+| Tp, ky               	| 144.8       	| 137.5       	|
+| T, kya               	| 25.7        	| 24.9        	|
 
 
 
