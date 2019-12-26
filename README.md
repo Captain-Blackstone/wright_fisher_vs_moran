@@ -99,6 +99,7 @@ Table 2. Models we built for two (African and Eurasian) populations with migrati
 | NEu                  	| 68665       	| 76027       	|
 | Tp, ky               	| 144.8       	| 137.5       	|
 | T, kya               	| 25.7        	| 24.9        	|
+  
 </p>
 
 ## References:
