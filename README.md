@@ -75,7 +75,7 @@ Table 2. Models we built for two (African and Eurasian) populations with and wit
 | N_A                  	|     7240    	|     7113    	|     7240    	|
 | NAf                  	|    13748    	|    13481    	|    13618    	|
 | NB                   	|     286     	|     279     	|     514     	|
-| gEu                  	| 5.35 * 10-3 	| 5.58 * 10-3 	| 2.03 * 10-3 	|
+| gEu                  	| 5.35 * 10<sup>-3</sup> 	| 5.58 * 10-3 	| 2.03 * 10-3 	|
 | NEu                  	|    68665    	|    76027    	|    13357    	|
 | Tp, ky               	|    144.8    	|    137.5    	|    128.5    	|
 | T, kya               	|     25.7    	|     24.9    	|     40.2    	|
