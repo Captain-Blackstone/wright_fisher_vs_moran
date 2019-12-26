@@ -20,18 +20,13 @@ results.
 - Compare the results.
 
 ## Materials and methods:
-In this study we inferred the demographic history - the history of evolution and development - of modern African,
-European, and East Asian populations and compared different approaches.
+In this study we inferred the demographic history - the history of evolution and development - of modern African, European, and East Asian populations and compared different approaches.
 African population - Yoruba from Ibadan, Nigeria (YRI)
 European population - Northern and western Europeans (CEU)
 East Asian population - Han Chinese from Beijing, China (CHB)
-Genetic data were presented as multi-population allele frequency spectrum (AFS) - the joint distribution of allele
-frequencies across diallelic variants. It was calculated using single nucleotide polymorphism (SNP) data from the
-Environmental Genome Project (EGP) [2].
-For computation the demographic history we used two Python packages ∂a∂i [1,3] and momi2 [4,5,6], simulating the
-expected AFS and comparing it with observed AFS using the maximum likelihood model. ∂a∂i is based on a diffusion
-approximation to the one-locus, two-allele Wright-Fisher process, but momi2 uses lookdown construction of the
-continuous-time Moran model expended by admixture between population.
+Genetic data were presented as multi-population allele frequency spectrum (AFS) - the joint distribution of allele frequencies across diallelic variants. It was calculated using single nucleotide polymorphism (SNP) data from the Environmental Genome Project (EGP). Effective sequenced length (accounts for losses in alignment and missed calls) was 4.04*106 Mb (exom) and the neutral mutation rate was 2.35*108 per generation [2].
+For computation the demographic history we used two Python packages ∂a∂i [1,3] and momi2 [4,5,6], simulating the expected AFS and comparing it with observed AFS using the maximum likelihood model. ∂a∂i is based on a diffusion approximation to the one-locus, two-allele Wright-Fisher process, but momi2 uses lookdown construction of the continuous-time Moran model expended by admixture between population.
+
 
 ## Results:
 We built six models. In ∂a∂i for two populations (YRI and CEU) with and without migration, and the same for three populations (YRI, CEU and CHB). In momi2 - model for two and three populations without migration because “pulse” migration in momi2 is not equivalent to migration in ∂a∂i and can’t be compared. (Table 2 and 3).
