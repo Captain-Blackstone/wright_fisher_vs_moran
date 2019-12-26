@@ -89,6 +89,34 @@ Thus, we found that migration should be considered for inferring more realistic 
 Table 3. Models we built for three (African, European and East Asian) populations with and without migrations
 </h4>
 
+| Parameters \ Package 	|     ∂a∂i    	|   momi2  	|     ∂a∂i    	|
+|----------------------	|:-----------:	|:--------:	|:-----------:	|
+| migration            	|      No     	|    No    	|     Yes     	|
+| Theta                	|    2856.3   	|          	|    2788.2   	|
+| N_A                  	|     7521    	|   7195   	|     7300    	|
+| NAf                  	|    14078    	|   13364  	|    12300    	|
+| NB                   	|     209     	|    146   	|     2100    	|
+| NEu0                 	|     2264    	|   3584   	|     1000    	|
+| gEu                  	| 1.03 * 10-3 	| 1 * 10-3 	| 3.98 * 10-3 	|
+| NEu                  	|    15728    	|   9589   	|    27300    	|
+| NAs0                 	|     972     	|   2458   	|     510     	|
+| gAs                  	| 1.75 * 10-3 	| 1 * 10-3 	|  5.5 * 10-3 	|
+| NAs                  	|    26325    	|   6576   	|    53220    	|
+| TAf, kya             	|    280.4    	|   125.9  	|    221.6    	|
+| TB, kya              	|     51.7    	|   26.2   	|    144.5    	|
+| TEu-As, kya          	|     47.2    	|   24.6   	|     21.2    	|
+| Maf-b                	|      -      	|     -    	|  25 * 10-5  	|
+| Maf-eu               	|      -      	|     -    	|   3 * 10-5  	|
+| Maf-as               	|      -      	|     -    	|  1.9 * 10-5 	|
+| Meu-as               	|      -      	|     -    	|  9.6 * 10-5 	|
+
+Above (columns 2 and 3) we can see two demographic histories for African, European and East Asian populations without migrations inferred by ∂a∂i and momi2 packages. The results more or less similar at the beginning, but the estimated time of prehistorical events were different. The initial African ancestral population of 7 thousand people grew to 13-14 thousand before the split. About 26-51 kya less than 150-200 people (bottlenecks) diverged from the African population and found the Eurasian ancestral population. The most probable time of this split is about 60 kya [7]. Split time of European and Asian populations also were different (52 vs. 26 kya). The latest estimation of time of this split is about 40 kya [7,8], but there were arguments for 25-38 kya [9]. Momi2 implies Moran model with overlapping generations and probably for this reason shorten the time.
+
+The demographic history for African, European and East Asian populations with migrations inferred by ∂a∂i (column 4) shows divergence between West African and Eurasian populations 140 kya. This is earlier than other genetic studies, in part because incorporation of migration. The European (CEU) and East Asian (CHB) divergence time is about 21 kya, long after archeological evidence places modern humans in Europe [1].
+
+Thus demographic histories for three populations inferred by ∂a∂i and momi2 packages gives contradictory results scarcely consistent with other researches. Maybe the interaction between three populations were more complicated and require more parameters. For example it is better to consider different waves of sapiens migration between the continents and admixture with Neandertals and Denisovans.
+Comparing ∂a∂i and momi2 we think that Moran model with overlapping generations didn’t give more realistic results in comparison with Wright-Fisher model. However, momi2 substantially lowered the computational burden by replacing the coalescent with the continuous-time Moran model and allowed to infer the history for much more than three populations [6].
+We can conclude that two approaches for inferring demographic history gave close results but both of them were sensitive to lacking of data and could take into account only limited demographic events. In this way demographic models could give quantitative evaluations of time for prehistorical events and sizes of populations but they should be verified by other methods of population genetics, paleontology, archeology and chronological dating methods.
 
 
 ## References:
@@ -98,6 +126,6 @@ Table 3. Models we built for three (African, European and East Asian) population
 4. https://github.com/popgenmethods/momi2
 5. https://momi2.readthedocs.io/en/latest/
 6. Kamm J., Terhorst J., Durbin R., Song Y.S. (2019) Efficiently Inferring the Demographic History of Many Populations With Allele Count Data // Journal of the American Statistical Association.
-7.  Bae C.J., Douka K., Petraglia M.D. (2017) On the origin of modern humans: Asian perspectives // Science.
-8. A.-S. Malaspinas et al. (2016) A genomic history of Aboriginal Australia // Nature.
+7. Bae C.J., Douka K., Petraglia M.D. (2017) On the origin of modern humans: Asian perspectives // Science.
+8. Malaspinas A.-S. et al. (2016) A genomic history of Aboriginal Australia // Nature.
 9. Rasmussen M. et al. (2011) An Aboriginal Australian Genome Reveals Separate Human Dispersals into Asia // Science.
