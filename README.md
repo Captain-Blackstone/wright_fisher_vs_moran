@@ -25,7 +25,7 @@ In this study we inferred the demographic history - the history of evolution and
 - European population - Northern and western Europeans (CEU)
 - East Asian population - Han Chinese from Beijing, China (CHB)
 
-Genetic data were presented as multi-population allele frequency spectrum (AFS) - the joint distribution of allele frequencies across diallelic variants. It was calculated using single nucleotide polymorphism (SNP) data from the Environmental Genome Project (EGP). Effective sequenced length (accounts for losses in alignment and missed calls) was 4.04*106 Mb (exom) and the neutral mutation rate was 2.35*108 per generation [2].
+Genetic data were presented as multi-population allele frequency spectrum (AFS) - the joint distribution of allele frequencies across diallelic variants. It was calculated using single nucleotide polymorphism (SNP) data from the Environmental Genome Project (EGP). Effective sequenced length (accounts for losses in alignment and missed calls) was 4.04 * 10^6 Mb (exom) and the neutral mutation rate was 2.35 * 10^8 per generation [2].
 For computation the demographic history we used two Python packages ∂a∂i [1,3] and momi2 [4,5,6], simulating the expected AFS and comparing it with observed AFS using the maximum likelihood model. ∂a∂i is based on a diffusion approximation to the one-locus, two-allele Wright-Fisher process, but momi2 uses lookdown construction of the continuous-time Moran model expended by admixture between population.
 
 We used hidden command *momi.sfs_from_dadi("name.fs")* for exporting AFS from dadi to momi2.
