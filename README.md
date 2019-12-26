@@ -95,7 +95,7 @@ Table 3. Models we built for two (African and Eurasian) populations without migr
 | Tp, ky               	| 128.5       	|       	|
 | T, kya               	| 40.2        	|       	|
 
-<table>
+<table align="center">
     <tr>
         <td>Foo</td>
     </tr>
