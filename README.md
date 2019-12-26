@@ -88,6 +88,20 @@ Table 2. Models we built for two (African and Eurasian) populations with migrati
 | T, kya               	|     25.7    	|     24.9    	|
 
 
+<p align="center">
+| Parameters \ Package 	| ∂a∂i        	| momi2       	|
+|----------------------	|-------------	|-------------	|
+| Theta                	| 2749.3      	|             	|
+| N_A                  	| 7240        	| 7113        	|
+| NAf                  	| 13748       	| 13481       	|
+| NB                   	| 286         	| 279         	|
+| gEu                  	| 5.35 * 10-3 	| 5.58 * 10-3 	|
+| NEu                  	| 68665       	| 76027       	|
+| Tp, ky               	| 144.8       	| 137.5       	|
+| T, kya               	| 25.7        	| 24.9        	|
+
+  text
+</p>
 
 ## References:
 1. Gutenkunst R.N., Hernandez R.D., Williamson S.H., Bustamante C.D. (2009) Inferring the joint demographic history of multiple populations from multidimensional snp frequency data // PLoS Genet. 5: e1000695.
